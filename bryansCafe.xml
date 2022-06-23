@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="bryansCafe.xsl"?>
+<!DOCTYPE bryansCafe[
+  <!ELEMENT bryansCafe (record+)>
+  <!ELEMENT record (lunchType, price, description, photo, audio)>
+  <!ELEMENT lunchType (#PCDATA)>
+  <!ELEMENT price (#PCDATA)>
+  <!ELEMENT description (#PCDATA)>
+  <!ELEMENT photo (#PCDATA)>
+  <!ELEMENT audio (#PCDATA)>
+]>
+
+<bryansCafe>
+
+   <record>
+      <lunchType>Beetroot And Feta Salad</lunchType>
+      <price>$15</price>
+      <description>Suitable For Vegetarians, Made With Fresh Beetroot</description>
+      <photo>Beetroot And Feta Salad.gif</photo>
+      <audio>Beetroot And Feta Salad.mp3</audio>
+   </record>
+
+   <record>
+      <lunchType>Soudough Rye Sandwich</lunchType>
+      <price>$18</price>
+      <description>Cheese And Salad Sandwich Made With Organic, Sourdough Rye Bread</description>
+      <photo>Soudough Rye Sandwich.gif</photo>
+      <audio>Soudough Rye Sandwich.mp3</audio>
+   </record>
+
+   <record>
+      <lunchType>Spinach Pie And Salad</lunchType>
+      <price>$20</price>
+      <description>Tasty Pie With Salad</description>
+      <photo>Spinach Pie And Salad.gif</photo>
+      <audio>Spinach Pie And Salad.mp3</audio>
+   </record>
+
+   <record>
+      <lunchType>Feta Pancakes With Salad</lunchType>
+      <price>$19.5</price>
+      <description>Tasty Pancake Filled With Feta And Salad</description>
+      <photo>Feta Pancakes With Salad.gif</photo>
+      <audio>Feta Pancakes With Salad.mp3</audio>
+   </record>
+
+</bryansCafe>
